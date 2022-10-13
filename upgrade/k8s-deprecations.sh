@@ -1,11 +1,13 @@
 #!/bin/bash
 ##########################################################################
 # This script finds all deprecations in k8s apiVersion.                  #
+# Author: lmasiero                                                       #
+# Date: 14th Oct 2022                                                    #
 # Author: Mukund                                                         #
 # Date: 14th Jan 2021                                                    #
 # Version: 2.0                                                           #
 ##########################################################################
-
+KUBECONFIG="~/.kube/config"
 START_TIME=$(date +%s)
 RED='\033[1;31m'
 GREEN='\033[0;32m'
